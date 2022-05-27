@@ -1,0 +1,32 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    // margin: .3rem 1rem;
+    height: 6vh;
+    background-color: #35424a;
+    align-items: center;
+    border-bottom: 4px solid #a74f83;
+    &__item{
+        margin-left: 1rem;
+        &--header{
+            color: white;
+            .span{
+                color: #be4ba9;
+            }
+        }
+    }
+    .nav__right--list{
+        margin-right: 1rem;
+        display: flex;
+        list-style-type: none;
+        .active a{
+            color: #a74f83;
+        }
+        li a{
+            text-decoration: none;
+            margin-left: .5rem;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}
