@@ -1,21 +1,23 @@
-.subscribe {
-  display: flex;
-  justify-content: space-between;
-  background-color: #35424a;
-  padding: 0.5rem 0;
-  color: white;
-  padding: 1rem 1rem;
-}
-
-.main {
+.Amain {
   margin: 2rem 2rem;
-  height: 63.5vh;
-  .section {
+  height: 67%;
+  .Asection {
     display: flex;
-    .section__about--paragraf{
+    .Asection__about--paragraf{
         background-color: #35424a;
         padding: 1rem;
         color: white;
+    }
+    &__info{
+        margin-left: 1rem;
+        h3{
+            margin-bottom: 1rem;
+        }
+        &--box{
+            background-color: #35424a;
+            padding: 1.5rem 1rem;
+            color: white;
+        }
     }
   }
 }

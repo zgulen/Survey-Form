@@ -1,10 +1,10 @@
 .main {
-  height: 80vh;
+  height: 81vh;
   position: relative;
 }
 .main .img {
   background-image: url(./images/showcase.jpg);
-  width: 100%;
+  width: 100vw;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -21,14 +21,6 @@
 .main .img .img__background--text p {
   text-align: center;
   color: white;
-}
-.main .subscribe {
-  display: flex;
-  justify-content: space-between;
-  background-color: #35424a;
-  padding: 0.5rem 0;
-  color: white;
-  padding: 1rem 1rem;
 }
 .main .logos {
   height: 38vh;
@@ -72,25 +64,68 @@
   background-image: url(./images/logo_brush.png);
 }
 
-.subscribe {
-  display: flex;
-  justify-content: space-between;
-  background-color: #35424a;
-  padding: 0.5rem 0;
-  color: white;
-  padding: 1rem 1rem;
-}
-
-.main {
+.Amain {
   margin: 2rem 2rem;
-  height: 63.5vh;
+  height: 67%;
 }
-.main .section {
+.Amain .Asection {
   display: flex;
 }
-.main .section .section__about--paragraf {
+.Amain .Asection .Asection__about--paragraf {
   background-color: #35424a;
   padding: 1rem;
+  color: white;
+}
+.Amain .Asection__info {
+  margin-left: 1rem;
+}
+.Amain .Asection__info h3 {
+  margin-bottom: 1rem;
+}
+.Amain .Asection__info--box {
+  background-color: #35424a;
+  padding: 1.5rem 1rem;
+  color: white;
+}
+
+.Smain .Ssection {
+  display: flex;
+}
+.Smain .Ssection__pieces {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 2rem;
+}
+.Smain .Ssection__pieces h4 {
+  padding: 1rem 0rem 0 1rem;
+  margin-bottom: 2rem;
+}
+.Smain .Ssection__pieces p {
+  margin-bottom: 1rem;
+  padding: 0rem 1rem 0;
+}
+.Smain .Ssection__pieces--box1 {
+  background-color: beige;
+  border-bottom: white solid 5px;
+}
+.Smain .Ssection__pieces .Ssection__pieces--head {
+  margin: 1rem 0;
+}
+.Smain .Ssection__right {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  padding: 1rem;
+  background-color: #35424a;
+  margin: 2rem 1rem;
+  color: white;
+  height: fit-content;
+}
+.Smain .Ssection__right button {
+  width: 5rem;
+  padding: 0.4rem;
+  background-color: orangered;
   color: white;
 }
 
@@ -127,6 +162,9 @@
 }
 
 .footer {
+  position: absolute;
+  width: 100vw;
+  bottom: 0;
   height: 13.5vh;
   background-color: #35424a;
   display: flex;
@@ -143,10 +181,28 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   height: 100vh;
+}
+
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35424a;
+  padding: 0.5rem 0;
+  color: white;
+  padding: 1rem 1rem;
+}
+.subscribe button {
+  background-color: orangered;
+  color: white;
+  padding: 0.3rem;
+}
+.subscribe input {
+  padding: 0.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */

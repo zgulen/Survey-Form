@@ -1,8 +1,26 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     height: 100vh;
 }
+
+.subscribe {
+    display: flex;
+    justify-content: space-between;
+    background-color: #35424a;
+    padding: 0.5rem 0;
+    color: white;
+    padding: 1rem 1rem;
+    button{
+        background-color: orangered;
+        color: white;
+        padding: .3rem;
+    }
+    input{
+        padding: .3rem;
+    }
+  }
