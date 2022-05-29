@@ -1,2 +1,3 @@
-![image description](Survey Form\images\Adsız.png)
-![image description](Survey Form/images/About.png)
+![image description](./images/Adsız.png)
+![image description](./images/About.png)
+![image description](./images/Services.png)
