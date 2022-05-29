@@ -2,15 +2,7 @@
 
 @import "./base/reset";
 
-
+@import "./pages/index.scss", "./pages/about.scss", "./pages/services.scss";
 
 @import "./components/nav","./components/footer","./components/main", "./components/responsive";
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-body{
-    height: 100vh;
-}

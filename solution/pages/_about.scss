@@ -1,0 +1,21 @@
+.subscribe {
+  display: flex;
+  justify-content: space-between;
+  background-color: #35424a;
+  padding: 0.5rem 0;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.main {
+  margin: 2rem 2rem;
+  height: 63.5vh;
+  .section {
+    display: flex;
+    .section__about--paragraf{
+        background-color: #35424a;
+        padding: 1rem;
+        color: white;
+    }
+  }
+}
